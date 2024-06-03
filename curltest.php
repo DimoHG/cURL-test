@@ -1,7 +1,8 @@
 <?php
  
 function curl_download($Url){
-  
+
+
     if (!function_exists('curl_init')){
         die('cURL is not installed. Install and try again.');
     }
